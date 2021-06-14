@@ -4,7 +4,7 @@
     <div class="container">
         <h1>Our Comics Here</h1>
 
-        <table class="table">
+        <table class="table mb-5">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -32,5 +32,8 @@
                 @endforeach
             </tbody>
         </table>
+
+        {{$comics->links()}}
+
     </div>
 @endsection
