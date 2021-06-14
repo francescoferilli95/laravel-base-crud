@@ -5,7 +5,10 @@
         <h1>{{ $comic->title }}</h1>
         <div class="mb-5">
             <span class="badge bg-primary me-3"> {{ $comic->type }}</span>
-            Price: {{ $comic->price }}
+            <span class="me-3">Series: {{ $comic->series }}</span> 
+            <span class="me-3">Sale date: {{ $comic->sale_date }}</span>
+            <span class="me-3">Price: {{ $comic->price }}</span> 
+            
         </div>
 
         <div class="row mb-5">
